@@ -16,7 +16,7 @@
   "dependencies": {
     "@theoplayer/react-ui": "^1.11.3",
     "compression": "^1.8.1",
-    "express": "^5.1.0",
+    "express": "^4.19.2",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "sirv": "^3.0.1",
@@ -36,6 +36,7 @@
     "globals": "^16.3.0",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-    "vite": "^7.1.2"
+    "vite": "^7.1.2",
+    "vite-plugin-static-copy": "^3.1.2"
   }
 }
