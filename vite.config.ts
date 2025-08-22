@@ -10,7 +10,11 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    vercel(),
+    vercel({
+      // Use Node.js serverless function (not static)
+      type: "middleware", // or "serverless" depending on your Vercel plan
+      entry: "server.js", // points to your custom server entry
+    }),
     viteStaticCopy({
       targets: [
         {
